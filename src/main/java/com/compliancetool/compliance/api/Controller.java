@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import model.Entry;
 
-@RequestMapping("api/compliance")
+@RequestMapping("api/v1/compliance")
 @CrossOrigin(origins = "*", maxAge = 3600)
 public class Controller {
 	
