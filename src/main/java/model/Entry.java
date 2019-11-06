@@ -1,25 +1,25 @@
 package model;
 
-import java.util.UUID;
+
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Entry {
 
-	private final UUID a;
-	private final UUID b;
+	private final int a;
+	private final int b;
 	
-	public Entry(@JsonProperty("a")UUID a, @JsonProperty("b") UUID b)
+	public Entry(@JsonProperty("a")int a, @JsonProperty("b") int b)
 	{
 		this.a = a;
 		this.b = b;
 	}
 
-	public UUID getA() {
+	public int getA() {
 		return a;
 	}
 
-	public UUID getB() {
+	public int getB() {
 		return b;
 	}
 }
